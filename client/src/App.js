@@ -1,5 +1,14 @@
+import { Routes, Route } from "react-router-dom";
+import Layout from "./Layout";
+
 const App = () => {
-  return <h1 className="text-red-400">Tech Verse </h1>;
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<Layout />}></Route>
+      </Routes>
+    </>
+  );
 };
 
 export default App;
