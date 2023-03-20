@@ -19,6 +19,7 @@
 
 ### Version 2
 
+- Add Shimmer Designs for all the Pages
 - RoadMap Design
 - Dashboard Design - User Dashboard
 - Add a Community Challenge
@@ -34,11 +35,6 @@
 - NodeJS
 - Tailwind CSS
 
-## Packages Used
-
-- React Router DOM
-- axios
-
 ##
 
 ## Community Challenge :-
@@ -49,3 +45,19 @@
   - Photos/ Design Photos
   - Responsive : Yes or No
   - Text Area - For Datas "User Data" and "Readme"
+
+## Packages Used
+
+### Frontend Packages
+
+- React Router DOM
+- axios
+
+### Backend Packages
+
+- bcryptjs
+- cookie-parser
+- cors
+- dotenv : For resolving environment varibles
+- jsonwebtoken
+- mongoose

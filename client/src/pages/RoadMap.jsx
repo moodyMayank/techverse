@@ -1,5 +1,12 @@
+import Level from "../components/Level";
+
 const RoadMap = () => {
-  return <div>Roadmap</div>;
+  return (
+    <div>
+      Roadmap
+      <Level />
+    </div>
+  );
 };
 
 export default RoadMap;
