@@ -11,7 +11,7 @@ import RegisterPage from "./pages/RegisterPage";
 import UploadPage from "./pages/UploadPage";
 import ProfilePage from "./pages/ProfilePage";
 
-axios.defaults.baseURL = "https://techverse-production.up.railway.app";
+axios.defaults.baseURL = "https://techverse-backend.onrender.com";
 
 // To set cookies
 axios.defaults.withCredentials = true;
