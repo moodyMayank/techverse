@@ -98,7 +98,7 @@ app.get("/profile", (req, res) => {
 });
 
 //
-app.get("/test", (req, res) => {
+app.get("https://techverse-production.up.railway.app/test", (req, res) => {
   res.json("Connection is working fine");
 });
 
