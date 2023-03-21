@@ -1,7 +1,7 @@
 const allowedOrigins = require("./allowedOrigins");
 
 const corsOptions = {
-  origin: allowedOrigins,
+  origin: "*",
   credentials: true,
   optionSuccessStatus: 200,
 };
