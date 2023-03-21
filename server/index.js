@@ -97,6 +97,11 @@ app.get("/profile", (req, res) => {
   }
 });
 
+//
+app.get("/test", (req, res) => {
+  res.json("Connection is working fine");
+});
+
 // logout
 app.post("/logout", (req, res) => {
   res.cookie("token", "").json(true);
