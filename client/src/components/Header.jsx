@@ -86,7 +86,7 @@ const Header = () => {
       {/*  Right Side  */}
 
       <div className="flex items-center gap-2">
-        {user.username === "" && (
+        {user === null && (
           <Link
             to={"/login"}
             className="px-4 py-1 text-lg rounded-md bg-primary text-white "
@@ -94,7 +94,11 @@ const Header = () => {
             Sign In
           </Link>
         )}
-        {user?.username !== "" && <AvatarWithText username={user.username} />}
+        {user !== null && (
+          <Link to={"/profile"}>
+            <AvatarWithText username={user?.username} />
+          </Link>
+        )}
       </div>
     </div>
   );

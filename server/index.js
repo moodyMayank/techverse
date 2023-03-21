@@ -96,3 +96,8 @@ app.get("/profile", (req, res) => {
     res.json(null);
   }
 });
+
+// logout
+app.post("/logout", (req, res) => {
+  res.cookie("token", "").json(true);
+});

@@ -9,6 +9,7 @@ import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
 import UploadPage from "./pages/UploadPage";
+import ProfilePage from "./pages/ProfilePage";
 
 axios.defaults.baseURL = "http://localhost:4000";
 
@@ -23,6 +24,7 @@ const App = () => {
           <Route index element={<HomePage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
+          <Route path="/profile" element={<ProfilePage />} />
           <Route path="/dashboard" element={<DashBoard />} />
           <Route path="/roadmap" element={<RoadMap />} />
           <Route path="/challenges" element={<ChallengePage />} />
